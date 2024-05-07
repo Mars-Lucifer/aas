@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         q1 = result[1];
         q2 = result[2];
         startQ = [q0, q1, q2];
-        printe.innerHTML = [result[0][0], result[1][0], result[2][0]].join(", ") + '<br>' + binaryToDecimal([result[0][0], result[1][0], result[2][0]].join(""));
+        printe.innerHTML = [result[0][0], result[1][0], result[2][0]].join(", ") + '<br>' + binaryToDecimal([result[2][0], result[1][0], result[0][0]].join(""));
     }
 
     // Обработчики событий для увеличения cp и cm
